@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="mt-[35px] ml-[121.5px] mr-[159.5px] mb-[100]">
+    <nav className="mt-[35px] ml-[121.5px] mr-[159.5px]">
       <ul className="list-none flex justify-between">
         <li>
           <Link href="/" className="flex items-center">
@@ -58,7 +58,7 @@ export default function Navbar() {
             <li>
               <Link href="profile">
                 <Image
-                  src="/images/user_profile.png"
+                  src="/images/user_profile.svg"
                   alt="User Profile"
                   width={40}
                   height={40}

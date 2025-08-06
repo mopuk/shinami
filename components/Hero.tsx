@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div>
+    <div className="mt-[100px]">
       <div className="grid grid-cols-2">
-        <div className="w-[728px] h-[313px] m-[0_121.5px]">
+        <div className="w-[728px] h-[313px] m-[0_121.5px] ">
           <h1 className="font-subtitle text-subtitle font-semibold">
             EXPLORE, CREATE AND SELL YOUR NFT’S ON SHIHAMI
           </h1>

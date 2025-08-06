@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -12,36 +13,44 @@ export default function Footer() {
         </div>
         <ul className="list-none flex gap-[37px] items-center mb-[62px]">
           <li>
-            <Image
-              src="/images/youtube.png"
-              alt="Youtube Link"
-              width={28}
-              height={27}
-            ></Image>
+            <Link href="#">
+              <Image
+                src="/images/youtube.png"
+                alt="Youtube Link"
+                width={28}
+                height={27}
+              ></Image>
+            </Link>
           </li>
           <li>
-            <Image
-              src="/images/twitter.png"
-              alt="Twitter Link"
-              width={28}
-              height={27}
-            ></Image>
+            <Link href="#">
+              <Image
+                src="/images/twitter.png"
+                alt="Twitter Link"
+                width={28}
+                height={27}
+              ></Image>
+            </Link>
           </li>
           <li>
-            <Image
-              src="/images/facebook.png"
-              alt="Facebook Link"
-              width={14}
-              height={27}
-            ></Image>
+            <Link href="#">
+              <Image
+                src="/images/facebook.png"
+                alt="Facebook Link"
+                width={14}
+                height={27}
+              ></Image>
+            </Link>
           </li>
           <li>
-            <Image
-              src="/images/google.png"
-              alt="Google Link"
-              width={28}
-              height={27}
-            ></Image>
+            <Link href="#">
+              <Image
+                src="/images/google.png"
+                alt="Google Link"
+                width={28}
+                height={27}
+              ></Image>
+            </Link>
           </li>
         </ul>
         <div className="font-paragraph text-[20px] text-[#96839B] ">
@@ -49,19 +58,21 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <div className="text-paragraph font-title text-[#F5FBF2] mb-[18px]">About</div>
+        <div className="text-paragraph font-title text-[#F5FBF2] mb-[18px]">
+          About
+        </div>
         <ul className="list-none flex flex-col gap-[2px]">
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            About NFT
+            <Link href="#">About NFT</Link>
           </li>
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            Live Auctions
+            <Link href="#">Live Auctions</Link>
           </li>
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            NFT Blog
+            <Link href="#">NFT Blog</Link>
           </li>
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            Activity
+            <Link href="#">Activity</Link>
           </li>
         </ul>
       </div>
@@ -71,16 +82,16 @@ export default function Footer() {
         </div>
         <ul className="list-none flex flex-col gap-[2px]">
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            Help & Support
+            <Link href="#">Help & Support</Link>
           </li>
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            Item Details
+            <Link href="#">Item Details</Link>
           </li>
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            Author Profile
+            <Link href="#">Author Profile</Link>
           </li>
           <li className="text-[20px] font-paragraph text-[#968398] h-[50px]">
-            Collection
+            <Link href="#">Collection</Link>
           </li>
         </ul>
       </div>
