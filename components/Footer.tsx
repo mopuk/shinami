@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-[1920px] h-[511px] grid grid-cols-4 gap-[140px] p-[118px_260px] bg-linear-150 from-[#ffffff10] to-[#ffffff05] backdrop-blur-xl">
+    <footer className="w-[1920px] h-[511px] grid grid-cols-4 gap-[140px] p-[118px_260px] bg-linear-150 from-[#ffffff10] to-[#ffffff05] backdrop-blur-xl">
       <Image src="/images/Logo.svg" alt="Logo" width={268} height={63}></Image>
       <div>
         <div className="font-paragraph text-[20px] text-[#96839B] mb-[60px]">
@@ -84,6 +84,6 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 }
