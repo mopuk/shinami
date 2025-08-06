@@ -21,8 +21,8 @@ export default function RootLayout({
         <Navbar />
         <ButtonToTop />
         {children}
+        <Footer />
       </body>
-      <Footer />
     </html>
   );
 }
